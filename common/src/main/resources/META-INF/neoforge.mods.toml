@@ -5,22 +5,22 @@ issueTrackerURL="https://github.com/Cursee-Development"
 logoFile="icon.png"
 
 [[mods]]
-modId="example"
-version="1.0.0"
-displayName="Example"
+modId="danger_close"
+version="3.0.2"
+displayName="Danger Close"
 displayURL="https://github.com/Cursee-Development"
-authors="Cursee Development"
-description='''TEMPLATE - Not for distribution'''
+authors="Lupin, Cursee Development"
+description='''You're standing a little close to that torch!'''
 credits='''Credit to Jared (Bookshelf) and Serilum (Collective).'''
 
-[[dependencies.example]]
+[[dependencies.danger_close]]
     modId="minecraft"
     type="required"
     versionRange="[1.20.6]"
     ordering="NONE"
     side="BOTH"
 
-[[dependencies.example]]
+[[dependencies.danger_close]]
     modId="neoforge"
     type="required"
     versionRange="[20.6.0,)"
@@ -28,7 +28,7 @@ credits='''Credit to Jared (Bookshelf) and Serilum (Collective).'''
     side="BOTH"
 
 # MonoLib dependency
-[[dependencies.example]]
+[[dependencies.danger_close]]
     modId="monolib"
     type="required"
     versionRange="[1.2.0,)"
@@ -36,4 +36,4 @@ credits='''Credit to Jared (Bookshelf) and Serilum (Collective).'''
     side="BOTH"
 
 [[mixins]]
-    config = "example.neoforge.mixins.json"
+    config = "danger_close.neoforge.mixins.json"

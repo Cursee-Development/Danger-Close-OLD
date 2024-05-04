@@ -15,7 +15,7 @@ base {
 }
 
 mixin { // mixin
-    config 'example.forge.mixins.json' // mixin
+    config 'danger_close.forge.mixins.json' // mixin
 
     debug.verbose = true // mixin
     debug.export = true // mixin
@@ -37,7 +37,7 @@ minecraft {
     runs {
         client {
             workingDirectory project.file('run')
-            args "-mixin.config=example.forge.mixins.json" // mixin
+            args "-mixin.config=danger_close.forge.mixins.json" // mixin
 
             ideaModule "${rootProject.name}.${project.name}.main"
             taskName 'Client'
@@ -51,7 +51,7 @@ minecraft {
 
         server {
             workingDirectory project.file('run')
-            args "-mixin.config=example.forge.mixins.json" // mixin
+            args "-mixin.config=danger_close.forge.mixins.json" // mixin
 
             ideaModule "${rootProject.name}.${project.name}.main"
             taskName 'Server'
@@ -65,7 +65,7 @@ minecraft {
 
         data {
             workingDirectory project.file('run')
-            args "-mixin.config=example.forge.mixins.json" // mixin
+            args "-mixin.config=danger_close.forge.mixins.json" // mixin
 
             ideaModule "${rootProject.name}.${project.name}.main"
             args '--mod', mod_id, '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
@@ -114,7 +114,7 @@ processResources {
 jar {
     manifest {
         attributes([
-                "MixinConfigs" : "example.forge.mixins.json" // mixin
+                "MixinConfigs" : "danger_close.forge.mixins.json" // mixin
         ])
     }
 }

@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "example",
-  "version": "1.0.0",
+  "id": "danger_close",
+  "version": "3.0.2",
 
-  "name": "Example",
-  "description": "TEMPLATE - Not for distribution",
+  "name": "Danger Close",
+  "description": "You're standing a little close to that torch!",
   "authors": [
-    "Cursee Development"
+    "Lupin, Cursee Development"
   ],
   "contact": {
     "homepage": "https://github.com/Cursee-Development",
@@ -21,18 +21,18 @@
 
   "entrypoints": {
     "main": [
-      "com.cursee.example.ExampleFabric"
+      "com.cursee.danger_close.DangerCloseFabric"
     ],
     "client": [
-      "com.cursee.example.ExampleFabricClient"
+      "com.cursee.danger_close.DangerCloseFabricClient"
     ]
   },
 
   "mixins": [
-    "example.fabric.mixins.json"
+    "danger_close.fabric.mixins.json"
   ],
 
-  "accessWidener" : "example.accesswidener",
+  "accessWidener" : "danger_close.accesswidener",
 
   "depends": {
     "fabricloader": ">=0.15.0",

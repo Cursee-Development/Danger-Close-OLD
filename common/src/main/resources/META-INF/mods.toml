@@ -5,15 +5,15 @@ issueTrackerURL="https://github.com/Cursee-Development"
 logoFile="icon.png"
 
 [[mods]]
-modId="example"
-version="1.0.0"
-displayName="Example"
+modId="danger_close"
+version="3.0.2"
+displayName="Danger Close"
 displayURL="https://github.com/Cursee-Development"
-authors="Cursee Development"
-description='''TEMPLTE - Not for distribution'''
+authors="Lupin, Cursee Development"
+description='''You're a little close to that torch!'''
 credits='''Credit to Jared (Bookshelf) and Serilum (Collective).'''
 
-[[dependencies.example]]
+[[dependencies.danger_close]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.20.6]"
@@ -21,7 +21,7 @@ credits='''Credit to Jared (Bookshelf) and Serilum (Collective).'''
     side="BOTH"
 
 # MonoLib dependency
-[[dependencies.example]]
+[[dependencies.danger_close]]
     modId="monolib"
     mandatory=true
     versionRange="[1.2.0,)"
