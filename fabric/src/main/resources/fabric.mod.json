@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "danger_close",
-  "version": "3.0.2",
+  "version": "3.0.3",
 
   "name": "Danger Close",
   "description": "You're standing a little close to that torch!",

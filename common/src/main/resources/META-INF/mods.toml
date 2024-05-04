@@ -6,7 +6,7 @@ logoFile="icon.png"
 
 [[mods]]
 modId="danger_close"
-version="3.0.2"
+version="3.0.3"
 displayName="Danger Close"
 displayURL="https://github.com/Cursee-Development"
 authors="Lupin, Cursee Development"
