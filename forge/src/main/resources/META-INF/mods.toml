@@ -2,7 +2,7 @@ modLoader="javafml"
 loaderVersion="*"
 license="All rights reserved"
 issueTrackerURL="https://github.com/Cursee-Development"
-logoFile="icon.png"
+logoFile= "../../../../../common/src/main/resources/icon.png"
 
 [[mods]]
 modId="danger_close"
@@ -16,7 +16,7 @@ credits='''Credit to Jared (Bookshelf) and Serilum (Collective).'''
 [[dependencies.danger_close]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.20.6]"
+    versionRange="[1.20.4]"
     ordering="NONE"
     side="BOTH"
 
@@ -24,6 +24,6 @@ credits='''Credit to Jared (Bookshelf) and Serilum (Collective).'''
 [[dependencies.danger_close]]
     modId="monolib"
     mandatory=true
-    versionRange="[1.2.0,)"
+    versionRange="[1.1.0,)"
     ordering="NONE"
     side="BOTH"

@@ -94,7 +94,7 @@ dependencies {
     compileOnly project(":common")
 
     // MonoLib dependency (no fg.deobf())
-    implementation "curse.maven:monolib-968432:5314438"
+    implementation "curse.maven:monolib-968432:5277034"
 }
 
 tasks.named('compileJava', JavaCompile).configure {

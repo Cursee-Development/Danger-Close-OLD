@@ -49,7 +49,7 @@ dependencies {
     compileOnly project(":common")
 
     // MonoLib dependency
-    implementation "curse.maven:monolib-968432:5314439"
+    implementation "curse.maven:monolib-968432:5277064"
 }
 
 tasks.named('compileJava', JavaCompile).configure {

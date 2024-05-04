@@ -29,11 +29,11 @@ dependencies {
     implementation project(":common")
 
     // MonoLib dependency
-    modImplementation "curse.maven:monolib-968432:5314433"
+    modImplementation "curse.maven:monolib-968432:5277023"
 
     // https://www.curseforge.com/minecraft/mc-mods/modmenu
     // optional dependency to show mods in Fabric similar to Forge/NeoForge
-    modApi("com.terraformersmc:modmenu:10.0.0-beta.1") { exclude(module: "fabric-api") }
+    modApi("com.terraformersmc:modmenu:9.2.0-beta.2") { exclude(module: "fabric-api") }
 }
 
 loom {
