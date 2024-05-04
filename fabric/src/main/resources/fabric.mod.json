@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "example",
+  "version": "1.0.0",
+
+  "name": "Example",
+  "description": "TEMPLATE - Not for distribution",
+  "authors": [
+    "Cursee Development"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Cursee-Development",
+    "sources": "https://github.com/Cursee-Development",
+    "issues": "https://github.com/Cursee-Development"
+  },
+
+  "license": "All rights reserved",
+  "icon": "icon.png",
+
+  "environment": "*",
+
+  "entrypoints": {
+    "main": [
+      "com.cursee.example.ExampleFabric"
+    ],
+    "client": [
+      "com.cursee.example.ExampleFabricClient"
+    ]
+  },
+
+  "mixins": [
+    "example.fabric.mixins.json"
+  ],
+
+  "accessWidener" : "example.accesswidener",
+
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric": "*",
+    "minecraft": ">=1.20",
+    "java": ">=21",
+    "monolib": ">=1.2.0"
+  }
+}

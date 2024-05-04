@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="*"
+license="All rights reserved"
+issueTrackerURL="https://github.com/Cursee-Development"
+logoFile="icon.png"
+
+[[mods]]
+modId="example"
+version="1.0.0"
+displayName="Example"
+displayURL="https://github.com/Cursee-Development"
+authors="Cursee Development"
+description='''TEMPLTE - Not for distribution'''
+credits='''Credit to Jared (Bookshelf) and Serilum (Collective).'''
+
+[[dependencies.example]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.6]"
+    ordering="NONE"
+    side="BOTH"
+
+# MonoLib dependency
+[[dependencies.example]]
+    modId="monolib"
+    mandatory=true
+    versionRange="[1.2.0,)"
+    ordering="NONE"
+    side="BOTH"
