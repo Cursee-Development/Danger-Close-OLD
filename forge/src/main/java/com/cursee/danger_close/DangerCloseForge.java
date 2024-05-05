@@ -28,9 +28,6 @@ public class DangerCloseForge {
     public static class NeoEventBusListeners {
 
         @SubscribeEvent
-//        public static void onLivingTick(LivingEvent.LivingTickEvent event) {
-
-
         public static void onLivingTick(LivingEvent.LivingTickEvent event) {
 
             LivingEntity entity = event.getEntity();

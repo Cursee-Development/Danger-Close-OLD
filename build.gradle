@@ -1,7 +1,7 @@
 plugins {
     id "org.jetbrains.gradle.plugin.idea-ext" version "1.1.7"
 
-    id "io.github.pacifistmc.forgix" version "1.2.7"
+    id "io.github.pacifistmc.forgix" version "1.2.9"
 }
 
 forgix {
@@ -27,6 +27,30 @@ forgix {
     }
 
 }
+
+//forgix {
+//    group = "${project.group}" // same as targetting ${group}, just not sure if expandProps occurs before this
+//    mergedJarName = "${mod_id}-merged-${minecraft_version}-${version}.jar"
+//    outputDir = "build/libs"
+//
+//    custom {
+//        projectName = "common"
+//        jarLocation = "build/libs/${mod_id}-common-${minecraft_version}-${version}.jar"
+//    }
+//
+//    fabric {
+//        projectName = "fabric"
+//        jarLocation = "build/libs/${mod_id}-fabric-${minecraft_version}-${version}.jar"
+//    }
+//
+//    neoforge {
+//        projectName = "neoforge"
+//        jarLocation = "build/libs/${mod_id}-neoforge-${minecraft_version}-${version}.jar"
+//
+//        mixin "${mod_id}.neoforge.mixins.json"
+//    }
+//
+//}
 
 subprojects {
     apply plugin: 'java'
